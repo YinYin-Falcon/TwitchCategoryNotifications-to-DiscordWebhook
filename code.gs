@@ -148,7 +148,6 @@ function check() { //the actual thing
 							);
 
 					}
-
 				}
 			}
 		}
