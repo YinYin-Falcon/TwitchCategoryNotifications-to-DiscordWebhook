@@ -9,7 +9,7 @@ function check() { //the actual thing
 	var client_secret = 'CLIENT_SECRET_IN_THOSE_QUOTES';
 
 	//authorisation token things, see if the twitch app token is still good, get a new one if not
-  //the token is fetched and stored from the B1 cell of the sheet named "token"
+	//the token is fetched and stored from the B1 cell of the sheet named "token"
 	Logger.log("Validating old access token from the spreadsheet.");
 	var access_token = SpreadsheetApp.getActive().getSheetByName('token').getRange(1, 2).getValue().toString();
 	var validate = UrlFetchApp.fetch("https://id.twitch.tv/oauth2/validate", {
