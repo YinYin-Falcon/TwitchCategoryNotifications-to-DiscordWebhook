@@ -6,19 +6,18 @@ and post any new streams to a discord channel webhook.
 
 Here is how to set it up:
 
-## STEP 1 spreadsheeting
-Create a google spreadsheet.  
+## STEP 1 Create a google spreadsheet
 Name the first sheet "token" and hide it.  
 Create additional sheets in the same document.  
 Name them after the twitch game categories you want to track.
 
-## STEP 2 appscripting
+## STEP 2 Attach the code.gs script
 Click on "Extensions" and then "Apps Script" in the menu bar at the top of the spreadsheet.  
 Paste the code.gs content from [here](../master/code.gs) in there.  
 Go to https://dev.twitch.tv/console/apps to create a client ID and secret.  
 Replace the respective placeholder strings in your code.gs with them.
 
-## STEP 3 discording
+## STEP 3 Enter a discord channel webhook
 Get to the discord channel you want your notifications to appear in.  
 Right click and edit the channel. Go to Integrations > Webhooks.  
 Create a new webhook. Copy the webhook URL.  
@@ -33,7 +32,7 @@ All last found streams will also be listed on the games sheet.
 If any of this fails without an external error (twitch/discord/google services not responding)  
 double check all your previous steps.
 
-## STEP 4 triggering
+## STEP 4 Automate with a trigger
 In the left sidebar of your apps script, go to the alarm clock icon to open the Triggers.  
 Add a new trigger, set it to run the check function, time-driven and every 5 minutes.
 
