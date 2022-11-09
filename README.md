@@ -9,8 +9,8 @@ Here is how to set it up:
 ## STEP 1 spreadsheeting
 Create a google spreadsheet.  
 Name the first sheet "token" and hide it.  
-Create additional sheets in the same document  
-and name them after the twitch game categories you want to track.
+Create additional sheets in the same document.  
+Name them after the twitch game categories you want to track.
 
 ## STEP 2 appscripting
 Click on "Extensions" and then "Apps Script" in the menu bar at the top of the spreadsheet.  
@@ -22,14 +22,14 @@ Replace the respective placeholder strings in your code.gs with them.
 Get to the discord channel you want your notifications to appear in.  
 Right click and edit the channel. Go to Integrations > Webhooks.  
 Create a new webhook. Copy the webhook URL.  
-Paste it into the B2 cell(s) of the game sheet(s) you want to appear in this channel.
+Paste it into the B2 cell of the games sheet you want posting to this channel.
 
 ---
 
 At this point you can already hit run on the check function in your apps script.  
 Any new live streams of your chosen game should appear in your discord channel.  
-All last found streams will also be listed on the game sheet.  
-(Pick a popular game to test! And clear the stream list in the sheet to retest discord messages)  
+All last found streams will also be listed on the games sheet.  
+(Pick a popular game to test! Clear the stream list in the sheet to retest discord messages)  
 If any of this fails without an external error (twitch/discord/google services not responding) double check all your previous steps.
 
 ## STEP 4 triggering
@@ -40,7 +40,7 @@ You are all set!
 
 ## STEP C customising
 Give your webhook a cool name and avatar in discord.  
-Extra webhooks (different name/avatar/channel/server possible) for the same game can go in the B column below the one you already have.  
+Extra webhooks (different name/avatar/channel/server possible) for the same game can go in the B column below the first webhook.  
 The A column can be used to filter these per language ("en" for example will only send english streams to the webhook).  
 And the background colour of column A is also used for the notification colour of that webhooks messages.
 
