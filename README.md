@@ -37,6 +37,8 @@ Add a new trigger, set it to run the check function, time-driven and every 5 min
 
 You are all set!
 
+---
+
 ## STEP C customising
 Give your webhook a cool name and avatar in discord.  
 Extra webhooks for the same game can go in the B column below the first webhook.  
