@@ -46,8 +46,8 @@ The A column can be used to filter these per language ("en" for example will onl
 And the background colour of column A is also used for the notification colour of that webhooks messages.
 
 ## STEP E expanding
-You can repeat step 3 for as many extra games and discord channels as your script cycles and API quotas can handle per day.  
-If you are only checking one or two games, you can possibly set the trigger to every minute instead of every 5.  
-If you are checking a lot of games, you may need to increase the trigger interval above 5 minutes  
+You can repeat step 3 for as many extra games and channels as your script cycles and API quotas can handle.  
+If you are only checking a few games, you can possibly set the trigger to a 1 instead of 5 minute interval.  
+If you are checking a lot of games, you may need to use a longer interval  
 or set up a new sheet with a new instance of this script.  
 Research how many cycles you actually have or watch at what point errors start piling up during a day.
