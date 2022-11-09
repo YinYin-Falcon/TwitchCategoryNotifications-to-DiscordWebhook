@@ -40,7 +40,7 @@ You are all set!
 
 ## STEP C customising
 Give your webhook a cool name and avatar in discord.  
-Extra webhooks (different name/avatar/channel/server possible) for the same game can go in the B column below the first webhook.  
+Extra webhooks for the same game can go in the B column below the first webhook.  
 The A column can be used to filter these per language ("en" for example will only send english streams to the webhook).  
 And the background colour of column A is also used for the notification colour of that webhooks messages.
 
