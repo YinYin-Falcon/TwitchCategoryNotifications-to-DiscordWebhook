@@ -1,8 +1,8 @@
 # TwitchCategoryNotifications-to-DiscordWebhook
 
-Well hello there! This is a little google apps script using google sheets as a database.  
+Well hello there! This is a little google apps script with google sheets as a database.  
 It can fetch live streams from a game category of your choice  
-and post new ones to a discord channel webhook.
+and post new any new streams to a discord channel webhook.
 
 Here is how to set it up:
 
