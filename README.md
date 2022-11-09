@@ -30,7 +30,8 @@ At this point you can already hit run on the check function in your apps script.
 Any new live streams of your chosen game should appear in your discord channel.  
 All last found streams will also be listed on the games sheet.  
 (Pick a popular game to test! Clear the stream list in the sheet to retest discord messages)  
-If any of this fails without an external error (twitch/discord/google services not responding) double check all your previous steps.
+If any of this fails without an external error (twitch/discord/google services not responding)  
+double check all your previous steps.
 
 ## STEP 4 triggering
 In the left sidebar of your apps script, go to the alarm clock icon to open the Triggers.  
