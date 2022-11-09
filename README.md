@@ -27,7 +27,7 @@ Paste it into the B2 cell of the games sheet you want posting to this channel.
 
 At this point you can already hit run on the check function in your apps script.  
 Any new live streams of your chosen game should appear in your discord channel.  
-All last found streams will also be listed on the games sheet.  
+All current live streams will also be listed on the games sheet.  
 (Pick a popular game to test! Clear the stream list in the sheet to retest discord messages)  
 If any of this fails, double check your previous steps.
 
