@@ -9,9 +9,9 @@ Here is how to set it up:
 ## STEP 1 Create a google spreadsheet
 Name the first sheet "token" and hide it.  
 Create additional sheets in the same document.  
-Enter these values into the first row of cells (A1-H1):  
+Name them after the twitch game categories you want to track.  
+Enter these values into the first row of each sheet (A1-H1):  
 `language filter	channel webhook	user_id	user_name	title	started_at	language	is_mature`  
-Name them after the twitch game categories you want to track.
 
 ## STEP 2 Attach the code.gs script
 Click on "Extensions" and then "Apps Script" in the menu bar at the top of the spreadsheet.  
