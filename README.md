@@ -10,7 +10,7 @@ Here is how to set it up:
 Name the first sheet "token" and hide it.  
 Create additional sheets in the same document.  
 Enter these values into the first row of cells (A1-H1):  
-language filter	channel webhook	user_id	user_name	title	started_at	language	is_mature  
+`language filter	channel webhook	user_id	user_name	title	started_at	language	is_mature`  
 Name them after the twitch game categories you want to track.
 
 ## STEP 2 Attach the code.gs script
