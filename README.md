@@ -16,9 +16,9 @@ Click on "Extensions" and then "Apps Script" in the menu bar at the top of the s
 Paste the code.gs content from [here](../master/code.gs) in there.  
 
 
-Go to https://dev.twitch.tv/console/apps, click Register Your Application.
-Give it a name, "http://localhost:3000" as the OAuth Redirect URL and category "other".
-Once generated you can grab the client ID and generate a secret from the manage page of the app.
+Go to https://dev.twitch.tv/console/apps, click Register Your Application.  
+Give it a name, "http://localhost:3000" as the OAuth Redirect URL and category "other".  
+Once generated you can grab the client ID and generate a secret from the manage page of the app.  
 Replace the respective placeholder strings in your code.gs with them.
 
 ## STEP 3 Enter a discord channel webhook
